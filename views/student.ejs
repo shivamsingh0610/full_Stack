@@ -1,0 +1,129 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+    <link rel="stylesheet" href="ByteXL1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cont">
+        <div class="form">
+            <h1>Student data</h1>
+            <div class="common">
+                <label for="name">Enter your name</label><br>
+                <input type="text" id="name" class="box">
+            </div>
+            <div class="common">   
+                <label>Enter your Gender</label><br>
+
+                <label for="male">Male</label>
+                <input type="radio" id="gender" name="gender" >
+
+                <label for="female">Female</label>
+                <input type="radio" id="gender" name="gender" >
+            </div>
+            <div class="common">
+                <label for="number">Enter your Phone number</label><br>
+                <input type="number" id="number" class="box">
+            </div>
+            <div class="common">
+                <label for="age">Enter your Age</label><br>
+                <input type="number" id="age" class="box">
+            </div>
+            <div class="common">
+                <label for="name">Enter your Address</label><br>
+                <input type="text" id="name" class="box">
+            </div>
+            <div class="common">
+                <label for="submit">Click to Submit</label><br>
+                <button type="submit" id="sb">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* body {
+            background-color: black;
+            color: white;
+        } */
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 40px auto;
+            padding: 20px;
+            width: 300px;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+
+        form label {
+            margin: 15px 0 5px 0;
+        }
+        h1{
+            margin: 0 auto;
+        }
+
+        button{
+            margin: 10px auto;
+            width: 100px;
+            background-color: aqua;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid;
+
+        }
+        input{
+            height: 10px;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="/reg" method="post">
+        <h1>Sign-up Form</h1>
+
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter your name:">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your email:">
+
+        <label for="job">Job</label>
+        <input type="text" name="job" placeholder="Enter your job:">
+
+        <label for="password">Password</label>
+        <input type="password" name="password">
+
+        <label for="cpassword">Confirmed password</label>
+        <input type="password" name="cpassword">
+
+        <button type="submit">Submit</button>
+        <!-- <p>Already have Account-<a href="login.html">Sign-In</a></p> -->
+
+    </form>
+</body>
+</html>

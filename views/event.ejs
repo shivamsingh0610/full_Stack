@@ -1,0 +1,121 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Data</title>
+    <link rel="stylesheet" href="ByteXL1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cont">
+        <div class="form">
+            <h1>Event Data</h1>
+            <div class="common">
+                <label for="name">Enter your name</label><br>
+                <input type="text" id="name" class="box">
+            </div>
+            <div class="common">
+                <label for="age">Enter your Age</label><br>
+                <input type="number" id="age" class="box">
+            </div>
+            <div class="common">   
+                <label>Interested in</label>
+                <select id="event" name="event" class="box">
+                    <option value="Singing">Singing</option>
+                    <option value="Dancing">Dancing</option>
+                    <option value="Speech">Speech</option>
+                    <option value="Other">Other</option>
+                </select>
+
+            </div>
+            <div class="common">
+                <label for="number">Enter number of group members</label><br>
+                <input type="number" id="number" class="box">
+            </div>
+            <div class="common">
+                <label for="Rehearsal">Upload your Rehearsal video</label><br>
+                <input type="file" id="Rehearsal" class="box">
+            </div>
+            <div class="common">
+                <label for="submit">Click to Submit</label><br>
+                <button type="submit" id="sb">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* body {
+            background-color: black;
+            color: white;
+        } */
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 40px auto;
+            padding: 20px;
+            width: 300px;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+
+        form label {
+            margin: 15px 0 5px 0;
+        }
+        h1{
+            margin: 0 auto;
+        }
+
+        button{
+            margin: 10px auto;
+            width: 100px;
+            background-color: aqua;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid;
+
+        }
+        input{
+            height: 10px;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="/login" method="post">
+        <h1>Login Form</h1>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your email:">
+
+
+        <label for="password">Password</label>
+        <input type="password" name="password">
+
+        <button type="submit">Submit</button>
+        <!-- <p>Create Account-<a href="signup.html">Register</a></p> -->
+
+    </form>
+</body>
+</html>
